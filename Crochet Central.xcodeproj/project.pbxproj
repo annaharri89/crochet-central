@@ -1,0 +1,997 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29156D90167B633500EE64D1 /* StitchesDetailChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29156D8F167B633500EE64D1 /* StitchesDetailChildViewController.m */; };
+		29156D93167B642100EE64D1 /* StitchesDetailChildViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29156D92167B642100EE64D1 /* StitchesDetailChildViewCell.m */; };
+		291CE5BD172FDAD100E471B9 /* UnfinishedOctopusBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 291CE5BA172FDAD100E471B9 /* UnfinishedOctopusBASICS_SMALL.png */; };
+		291CE5BE172FDAD100E471B9 /* UnfinishedOctopusBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 291CE5BB172FDAD100E471B9 /* UnfinishedOctopusBIG.png */; };
+		291CE5BF172FDAD100E471B9 /* UnfinishedOctopusSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 291CE5BC172FDAD100E471B9 /* UnfinishedOctopusSMALL.png */; };
+		291DBFFB16703BB200F43451 /* StitchesMasterViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 291DBFFA16703BB200F43451 /* StitchesMasterViewCell.m */; };
+		291DBFFE16703BDD00F43451 /* StitchesMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291DBFFD16703BDC00F43451 /* StitchesMasterViewController.m */; };
+		294954DE1718309E00292C93 /* addBookmarkEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 294954DC1718309E00292C93 /* addBookmarkEmpty.png */; };
+		294954DF1718309E00292C93 /* addBookmarkFilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 294954DD1718309E00292C93 /* addBookmarkFilled.png */; };
+		294954E21718D66D00292C93 /* BookmarksDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294954E11718D66D00292C93 /* BookmarksDetailViewController.m */; };
+		294954E51718E22F00292C93 /* BookmarksDetailChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294954E41718E22E00292C93 /* BookmarksDetailChildViewController.m */; };
+		294954EB1718E70D00292C93 /* BookmarksDetailChildViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 294954EA1718E70D00292C93 /* BookmarksDetailChildViewCell.m */; };
+		295160F1167D274C000434FB /* StitchesChildViewDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 295160F0167D274C000434FB /* StitchesChildViewDetail.m */; };
+		2951611A167D65BB000434FB /* step1placeholderBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516110167D65B9000434FB /* step1placeholderBIG.png */; };
+		2951611B167D65BB000434FB /* step1placeholderSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516111167D65B9000434FB /* step1placeholderSMALL.png */; };
+		2951611C167D65BB000434FB /* step2placeholderBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516112167D65B9000434FB /* step2placeholderBIG.png */; };
+		2951611D167D65BB000434FB /* step2placeholderSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516113167D65BA000434FB /* step2placeholderSMALL.png */; };
+		2951611E167D65BB000434FB /* step3placeholderBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516114167D65BA000434FB /* step3placeholderBIG.png */; };
+		2951611F167D65BB000434FB /* step3placeholderSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516115167D65BA000434FB /* step3placeholderSMALL.png */; };
+		29516120167D65BB000434FB /* step4placeholderBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516116167D65BA000434FB /* step4placeholderBIG.png */; };
+		29516121167D65BB000434FB /* step4placeholderSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516117167D65BA000434FB /* step4placeholderSMALL.png */; };
+		29516122167D65BB000434FB /* step5placeholderBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516118167D65BB000434FB /* step5placeholderBIG.png */; };
+		29516123167D65BB000434FB /* step5placeholderSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516119167D65BB000434FB /* step5placeholderSMALL.png */; };
+		2951612B167D8587000434FB /* PatternsDetailChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2951612A167D8587000434FB /* PatternsDetailChildViewController.m */; };
+		2951612E167D85B5000434FB /* PatternsDetailChildViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2951612D167D85B4000434FB /* PatternsDetailChildViewCell.m */; };
+		29516131167D85E7000434FB /* PatternsChildViewDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 29516130167D85E7000434FB /* PatternsChildViewDetail.m */; };
+		29516138167D8D18000434FB /* doublecrochetplaceholderBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516132167D8D17000434FB /* doublecrochetplaceholderBIG.png */; };
+		29516139167D8D18000434FB /* doublecrochetplaceholderSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516133167D8D17000434FB /* doublecrochetplaceholderSMALL.png */; };
+		2951613A167D8D18000434FB /* halfdoublecrochetplaceholderBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516134167D8D17000434FB /* halfdoublecrochetplaceholderBIG.png */; };
+		2951613B167D8D18000434FB /* halfdoublecrochetplaceholderSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516135167D8D17000434FB /* halfdoublecrochetplaceholderSMALL.png */; };
+		2951613C167D8D18000434FB /* singlecrochetplaceholderBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516136167D8D17000434FB /* singlecrochetplaceholderBIG.png */; };
+		2951613D167D8D18000434FB /* singlecrochetplaceholderSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29516137167D8D18000434FB /* singlecrochetplaceholderSMALL.png */; };
+		295839D416F30C8D00A14137 /* RowCounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 295839D316F30C8D00A14137 /* RowCounterViewController.m */; };
+		295839D616F323B300A14137 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 295839D516F323B300A14137 /* reset.png */; };
+		295A6013171281C000A22E97 /* CrochetBookmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = 295A6012171281C000A22E97 /* CrochetBookmarks.m */; };
+		295A60161712822900A22E97 /* CrochetBookmarksDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 295A60151712822900A22E97 /* CrochetBookmarksDataController.m */; };
+		295BC5951679BD64004252CC /* CrochetPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BC5941679BD64004252CC /* CrochetPattern.m */; };
+		295BC5981679BFF9004252CC /* CrochetPatternDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BC5971679BFF9004252CC /* CrochetPatternDataController.m */; };
+		295BC5A11679C929004252CC /* PatternsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BC5A01679C928004252CC /* PatternsMasterViewController.m */; };
+		295BC5AB1679DB77004252CC /* StitchesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BC5AA1679DB76004252CC /* StitchesDetailViewController.m */; };
+		295BC5AE1679DD06004252CC /* PatternsMasterViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BC5AD1679DD06004252CC /* PatternsMasterViewCell.m */; };
+		295BC5B11679DDE9004252CC /* PatternsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 295BC5B01679DDE8004252CC /* PatternsDetailViewController.m */; };
+		29700CAF1623949F0032CF95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29700CAE1623949F0032CF95 /* UIKit.framework */; };
+		29700CB11623949F0032CF95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29700CB01623949F0032CF95 /* Foundation.framework */; };
+		29700CB31623949F0032CF95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29700CB21623949F0032CF95 /* CoreGraphics.framework */; };
+		29700CB91623949F0032CF95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29700CB71623949F0032CF95 /* InfoPlist.strings */; };
+		29700CBB1623949F0032CF95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29700CBA1623949F0032CF95 /* main.m */; };
+		29700CBF1623949F0032CF95 /* CrochetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29700CBE1623949F0032CF95 /* CrochetAppDelegate.m */; };
+		29700CC21623949F0032CF95 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29700CC01623949F0032CF95 /* MainStoryboard.storyboard */; };
+		29700CC71623949F0032CF95 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 29700CC61623949F0032CF95 /* first.png */; };
+		29700CC91623949F0032CF95 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29700CC81623949F0032CF95 /* first@2x.png */; };
+		29700CCE1623949F0032CF95 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 29700CCD1623949F0032CF95 /* second.png */; };
+		29700CD01623949F0032CF95 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29700CCF1623949F0032CF95 /* second@2x.png */; };
+		297AF7A416DDC9C6005F2B84 /* CrochetBasics.m in Sources */ = {isa = PBXBuildFile; fileRef = 297AF7A316DDC9C6005F2B84 /* CrochetBasics.m */; };
+		297AF7A816DDCAF9005F2B84 /* CrochetBasicsDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 297AF7A716DDCAF9005F2B84 /* CrochetBasicsDataController.m */; };
+		297CF3D0171A8128008E13C9 /* BookmarksDetailChildViewDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 297CF3CF171A8128008E13C9 /* BookmarksDetailChildViewDetail.m */; };
+		297CF3DB171C03F7008E13C9 /* EffectOfTension1BIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3D9171C03F6008E13C9 /* EffectOfTension1BIG.png */; };
+		297CF3DC171C03F7008E13C9 /* EffectOfTension2BIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3DA171C03F7008E13C9 /* EffectOfTension2BIG.png */; };
+		297CF3ED171C07B1008E13C9 /* DoubleCrochetBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3DD171C07AD008E13C9 /* DoubleCrochetBASICS_SMALL.png */; };
+		297CF3EE171C07B1008E13C9 /* DoubleCrochetBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3DE171C07AD008E13C9 /* DoubleCrochetBIG.png */; };
+		297CF3EF171C07B1008E13C9 /* EffectOfTension1BASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3DF171C07AD008E13C9 /* EffectOfTension1BASICS_SMALL.png */; };
+		297CF3F0171C07B1008E13C9 /* EffectOfTension2BASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3E0171C07AD008E13C9 /* EffectOfTension2BASICS_SMALL.png */; };
+		297CF3F1171C07B1008E13C9 /* HalfDoubleCrochetBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3E1171C07AE008E13C9 /* HalfDoubleCrochetBIG.png */; };
+		297CF3F2171C07B1008E13C9 /* HalfDoubleCrochetBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3E2171C07AE008E13C9 /* HalfDoubleCrochetBASICS_SMALL.png */; };
+		297CF3F3171C07B1008E13C9 /* HooksBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3E3171C07AE008E13C9 /* HooksBASICS_SMALL.png */; };
+		297CF3F4171C07B1008E13C9 /* HooksBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3E4171C07AE008E13C9 /* HooksBIG.png */; };
+		297CF3F5171C07B1008E13C9 /* HookSizesBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3E5171C07AF008E13C9 /* HookSizesBASICS_SMALL.png */; };
+		297CF3F6171C07B1008E13C9 /* HookSizesBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3E6171C07AF008E13C9 /* HookSizesBIG.png */; };
+		297CF3F7171C07B1008E13C9 /* SingleCrochetBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3E7171C07B0008E13C9 /* SingleCrochetBASICS_SMALL.png */; };
+		297CF3F8171C07B1008E13C9 /* SingleCrochetBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3E8171C07B0008E13C9 /* SingleCrochetBIG.png */; };
+		297CF3F9171C07B1008E13C9 /* TripleCrochetBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3E9171C07B1008E13C9 /* TripleCrochetBASICS_SMALL.png */; };
+		297CF3FA171C07B1008E13C9 /* TripleCrochetBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3EA171C07B1008E13C9 /* TripleCrochetBIG.png */; };
+		297CF3FB171C07B1008E13C9 /* YarnBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3EB171C07B1008E13C9 /* YarnBASICS_SMALL.png */; };
+		297CF3FC171C07B1008E13C9 /* YarnBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3EC171C07B1008E13C9 /* YarnBIG.png */; };
+		297CF3FE171C0C58008E13C9 /* TripleCrochetSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF3FD171C0C57008E13C9 /* TripleCrochetSMALL.png */; };
+		297CF403171C0CAF008E13C9 /* HalfDoubleCrochetSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF400171C0CAC008E13C9 /* HalfDoubleCrochetSMALL.png */; };
+		297CF404171C0CAF008E13C9 /* SingleCrochetSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF401171C0CAE008E13C9 /* SingleCrochetSMALL.png */; };
+		297CF406171C117D008E13C9 /* DoubleCrochetSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 297CF405171C117B008E13C9 /* DoubleCrochetSMALL.png */; };
+		298AD72B170830B900CA956C /* gridRulerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 298AD72A170830B900CA956C /* gridRulerIcon.png */; };
+		298AD72D1708330000CA956C /* gridRulerIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 298AD72C1708330000CA956C /* gridRulerIcon2.png */; };
+		29BC791E1672841700A5AA7C /* CrochetStitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BC791D1672841700A5AA7C /* CrochetStitch.m */; };
+		29BC79211672842A00A5AA7C /* CrochetStitchDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BC79201672842900A5AA7C /* CrochetStitchDataController.m */; };
+		29BE109816734F56000F6A13 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 29BE109716734F56000F6A13 /* iTunesArtwork.png */; };
+		29DA9484172F17BF00AE43B1 /* basicsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA9480172F17BF00AE43B1 /* basicsIcon.png */; };
+		29DA9485172F17BF00AE43B1 /* patternsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA9481172F17BF00AE43B1 /* patternsIcon.png */; };
+		29DA9486172F17BF00AE43B1 /* stitchesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA9482172F17BF00AE43B1 /* stitchesIcon.png */; };
+		29DA9487172F17BF00AE43B1 /* tutorialIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA9483172F17BF00AE43B1 /* tutorialIcon.png */; };
+		29DA948C172F2F0F00AE43B1 /* RulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DA9489172F2F0F00AE43B1 /* RulerView.m */; };
+		29DA948D172F2F0F00AE43B1 /* RulerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DA948B172F2F0F00AE43B1 /* RulerViewController.m */; };
+		29DA9497172F314D00AE43B1 /* step1placeholderBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA9492172F314D00AE43B1 /* step1placeholderBASICS_SMALL.png */; };
+		29DA9498172F314D00AE43B1 /* step2placeholderBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA9493172F314D00AE43B1 /* step2placeholderBASICS_SMALL.png */; };
+		29DA9499172F314D00AE43B1 /* step3placeholderBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA9494172F314D00AE43B1 /* step3placeholderBASICS_SMALL.png */; };
+		29DA949A172F314D00AE43B1 /* step4placeholderBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA9495172F314D00AE43B1 /* step4placeholderBASICS_SMALL.png */; };
+		29DA949B172F314D00AE43B1 /* step5placeholderBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA9496172F314D00AE43B1 /* step5placeholderBASICS_SMALL.png */; };
+		29DA94A0172F71A300AE43B1 /* tutorial_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA949F172F71A300AE43B1 /* tutorial_3.png */; };
+		29DA94A3172F763D00AE43B1 /* tutorial_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94A1172F763D00AE43B1 /* tutorial_4.png */; };
+		29DA94A4172F763D00AE43B1 /* tutorial_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94A2172F763D00AE43B1 /* tutorial_5.png */; };
+		29DA94A9172F8EA000AE43B1 /* tutorial_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94A5172F8EA000AE43B1 /* tutorial_6.png */; };
+		29DA94AA172F8EA000AE43B1 /* tutorial_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94A6172F8EA000AE43B1 /* tutorial_7.png */; };
+		29DA94AB172F8EA000AE43B1 /* tutorial_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94A7172F8EA000AE43B1 /* tutorial_8.png */; };
+		29DA94AC172F8EA000AE43B1 /* tutorial_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94A8172F8EA000AE43B1 /* tutorial_9.png */; };
+		29DA94B6172FC7BA00AE43B1 /* ChainStep5BIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94AD172FC7B900AE43B1 /* ChainStep5BIG.png */; };
+		29DA94B7172FC7BA00AE43B1 /* HoldYarnStep2BIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94AE172FC7B900AE43B1 /* HoldYarnStep2BIG.png */; };
+		29DA94B8172FC7BA00AE43B1 /* HoldYarnStep3BIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94AF172FC7B900AE43B1 /* HoldYarnStep3BIG.png */; };
+		29DA94B9172FC7BA00AE43B1 /* LegCurlBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94B0172FC7B900AE43B1 /* LegCurlBIG.png */; };
+		29DA94BA172FC7BA00AE43B1 /* SlipStitchStep2BIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94B1172FC7B900AE43B1 /* SlipStitchStep2BIG.png */; };
+		29DA94BB172FC7BA00AE43B1 /* SlipStitchStep3aBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94B2172FC7B900AE43B1 /* SlipStitchStep3aBIG.png */; };
+		29DA94BC172FC7BA00AE43B1 /* SlipStitchStep3bBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94B3172FC7BA00AE43B1 /* SlipStitchStep3bBIG.png */; };
+		29DA94BD172FC7BA00AE43B1 /* SlipStitchStep4BIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94B4172FC7BA00AE43B1 /* SlipStitchStep4BIG.png */; };
+		29DA94BE172FC7BA00AE43B1 /* SpotsBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94B5172FC7BA00AE43B1 /* SpotsBIG.png */; };
+		29DA94D1172FCE0B00AE43B1 /* ChainStep5BASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94BF172FCE0500AE43B1 /* ChainStep5BASICS_SMALL.png */; };
+		29DA94D2172FCE0B00AE43B1 /* ChainStep5SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94C0172FCE0600AE43B1 /* ChainStep5SMALL.png */; };
+		29DA94D3172FCE0B00AE43B1 /* HoldYarnStep2BASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94C1172FCE0600AE43B1 /* HoldYarnStep2BASICS_SMALL.png */; };
+		29DA94D4172FCE0B00AE43B1 /* HoldYarnStep2SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94C2172FCE0600AE43B1 /* HoldYarnStep2SMALL.png */; };
+		29DA94D5172FCE0B00AE43B1 /* HoldYarnStep3BASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94C3172FCE0600AE43B1 /* HoldYarnStep3BASICS_SMALL.png */; };
+		29DA94D6172FCE0B00AE43B1 /* HoldYarnStep3SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94C4172FCE0700AE43B1 /* HoldYarnStep3SMALL.png */; };
+		29DA94D7172FCE0B00AE43B1 /* LegCurlBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94C5172FCE0700AE43B1 /* LegCurlBASICS_SMALL.png */; };
+		29DA94D8172FCE0B00AE43B1 /* LegCurlSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94C6172FCE0700AE43B1 /* LegCurlSMALL.png */; };
+		29DA94D9172FCE0B00AE43B1 /* SlipStitchStep2BASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94C7172FCE0700AE43B1 /* SlipStitchStep2BASICS_SMALL.png */; };
+		29DA94DA172FCE0B00AE43B1 /* SlipStitchStep2SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94C8172FCE0800AE43B1 /* SlipStitchStep2SMALL.png */; };
+		29DA94DB172FCE0B00AE43B1 /* SlipStitchStep3aBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94C9172FCE0800AE43B1 /* SlipStitchStep3aBASICS_SMALL.png */; };
+		29DA94DC172FCE0B00AE43B1 /* SlipStitchStep3aSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94CA172FCE0900AE43B1 /* SlipStitchStep3aSMALL.png */; };
+		29DA94DD172FCE0B00AE43B1 /* SlipStitchStep3bBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94CB172FCE0900AE43B1 /* SlipStitchStep3bBASICS_SMALL.png */; };
+		29DA94DE172FCE0B00AE43B1 /* SlipStitchStep3bSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94CC172FCE0A00AE43B1 /* SlipStitchStep3bSMALL.png */; };
+		29DA94DF172FCE0B00AE43B1 /* SlipStitchStep4BASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94CD172FCE0A00AE43B1 /* SlipStitchStep4BASICS_SMALL.png */; };
+		29DA94E0172FCE0B00AE43B1 /* SlipStitchStep4SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94CE172FCE0A00AE43B1 /* SlipStitchStep4SMALL.png */; };
+		29DA94E1172FCE0B00AE43B1 /* SpotsBASICS_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94CF172FCE0B00AE43B1 /* SpotsBASICS_SMALL.png */; };
+		29DA94E2172FCE0B00AE43B1 /* SpotsSMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DA94D0172FCE0B00AE43B1 /* SpotsSMALL.png */; };
+		29E8F7E717100EF800014421 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E8F7E617100EF800014421 /* TutorialViewController.m */; };
+		29E8F7E91711FFCF00014421 /* tutorial_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E8F7E81711FFCF00014421 /* tutorial_1.png */; };
+		29E8F7ED1712009C00014421 /* tutorial_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E8F7EC1712009C00014421 /* tutorial_2.png */; };
+		29E8F7F317121BB100014421 /* BookmarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E8F7F217121BB100014421 /* BookmarksViewController.m */; };
+		29F80AFF165A66D800A87F31 /* BasicsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F80AFE165A66D800A87F31 /* BasicsMasterViewController.m */; };
+		29F80B02165A66F600A87F31 /* BasicsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F80B01165A66F600A87F31 /* BasicsDetailViewController.m */; };
+		29FB08DE16E9D67E00579DDB /* BasicsChildDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FB08DD16E9D67E00579DDB /* BasicsChildDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29156D8E167B633400EE64D1 /* StitchesDetailChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StitchesDetailChildViewController.h; sourceTree = "<group>"; };
+		29156D8F167B633500EE64D1 /* StitchesDetailChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StitchesDetailChildViewController.m; sourceTree = "<group>"; };
+		29156D91167B642000EE64D1 /* StitchesDetailChildViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StitchesDetailChildViewCell.h; sourceTree = "<group>"; };
+		29156D92167B642100EE64D1 /* StitchesDetailChildViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StitchesDetailChildViewCell.m; sourceTree = "<group>"; };
+		291CE5BA172FDAD100E471B9 /* UnfinishedOctopusBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnfinishedOctopusBASICS_SMALL.png; sourceTree = "<group>"; };
+		291CE5BB172FDAD100E471B9 /* UnfinishedOctopusBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnfinishedOctopusBIG.png; sourceTree = "<group>"; };
+		291CE5BC172FDAD100E471B9 /* UnfinishedOctopusSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnfinishedOctopusSMALL.png; sourceTree = "<group>"; };
+		291DBFF916703BB200F43451 /* StitchesMasterViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StitchesMasterViewCell.h; sourceTree = "<group>"; };
+		291DBFFA16703BB200F43451 /* StitchesMasterViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StitchesMasterViewCell.m; sourceTree = "<group>"; };
+		291DBFFC16703BDC00F43451 /* StitchesMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StitchesMasterViewController.h; sourceTree = "<group>"; };
+		291DBFFD16703BDC00F43451 /* StitchesMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StitchesMasterViewController.m; sourceTree = "<group>"; };
+		294954DC1718309E00292C93 /* addBookmarkEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addBookmarkEmpty.png; sourceTree = "<group>"; };
+		294954DD1718309E00292C93 /* addBookmarkFilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addBookmarkFilled.png; sourceTree = "<group>"; };
+		294954E01718D66C00292C93 /* BookmarksDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksDetailViewController.h; sourceTree = "<group>"; };
+		294954E11718D66D00292C93 /* BookmarksDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksDetailViewController.m; sourceTree = "<group>"; };
+		294954E31718E22E00292C93 /* BookmarksDetailChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksDetailChildViewController.h; sourceTree = "<group>"; };
+		294954E41718E22E00292C93 /* BookmarksDetailChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksDetailChildViewController.m; sourceTree = "<group>"; };
+		294954E91718E70D00292C93 /* BookmarksDetailChildViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksDetailChildViewCell.h; sourceTree = "<group>"; };
+		294954EA1718E70D00292C93 /* BookmarksDetailChildViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksDetailChildViewCell.m; sourceTree = "<group>"; };
+		295160EF167D274C000434FB /* StitchesChildViewDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StitchesChildViewDetail.h; sourceTree = "<group>"; };
+		295160F0167D274C000434FB /* StitchesChildViewDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StitchesChildViewDetail.m; sourceTree = "<group>"; };
+		29516110167D65B9000434FB /* step1placeholderBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1placeholderBIG.png; sourceTree = "<group>"; };
+		29516111167D65B9000434FB /* step1placeholderSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1placeholderSMALL.png; sourceTree = "<group>"; };
+		29516112167D65B9000434FB /* step2placeholderBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2placeholderBIG.png; sourceTree = "<group>"; };
+		29516113167D65BA000434FB /* step2placeholderSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2placeholderSMALL.png; sourceTree = "<group>"; };
+		29516114167D65BA000434FB /* step3placeholderBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step3placeholderBIG.png; sourceTree = "<group>"; };
+		29516115167D65BA000434FB /* step3placeholderSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step3placeholderSMALL.png; sourceTree = "<group>"; };
+		29516116167D65BA000434FB /* step4placeholderBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step4placeholderBIG.png; sourceTree = "<group>"; };
+		29516117167D65BA000434FB /* step4placeholderSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step4placeholderSMALL.png; sourceTree = "<group>"; };
+		29516118167D65BB000434FB /* step5placeholderBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step5placeholderBIG.png; sourceTree = "<group>"; };
+		29516119167D65BB000434FB /* step5placeholderSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step5placeholderSMALL.png; sourceTree = "<group>"; };
+		29516129167D8587000434FB /* PatternsDetailChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternsDetailChildViewController.h; sourceTree = "<group>"; };
+		2951612A167D8587000434FB /* PatternsDetailChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternsDetailChildViewController.m; sourceTree = "<group>"; };
+		2951612C167D85B4000434FB /* PatternsDetailChildViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternsDetailChildViewCell.h; sourceTree = "<group>"; };
+		2951612D167D85B4000434FB /* PatternsDetailChildViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternsDetailChildViewCell.m; sourceTree = "<group>"; };
+		2951612F167D85E6000434FB /* PatternsChildViewDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternsChildViewDetail.h; sourceTree = "<group>"; };
+		29516130167D85E7000434FB /* PatternsChildViewDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternsChildViewDetail.m; sourceTree = "<group>"; };
+		29516132167D8D17000434FB /* doublecrochetplaceholderBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doublecrochetplaceholderBIG.png; sourceTree = "<group>"; };
+		29516133167D8D17000434FB /* doublecrochetplaceholderSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doublecrochetplaceholderSMALL.png; sourceTree = "<group>"; };
+		29516134167D8D17000434FB /* halfdoublecrochetplaceholderBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = halfdoublecrochetplaceholderBIG.png; sourceTree = "<group>"; };
+		29516135167D8D17000434FB /* halfdoublecrochetplaceholderSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = halfdoublecrochetplaceholderSMALL.png; sourceTree = "<group>"; };
+		29516136167D8D17000434FB /* singlecrochetplaceholderBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singlecrochetplaceholderBIG.png; sourceTree = "<group>"; };
+		29516137167D8D18000434FB /* singlecrochetplaceholderSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singlecrochetplaceholderSMALL.png; sourceTree = "<group>"; };
+		295839D216F30C8D00A14137 /* RowCounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowCounterViewController.h; sourceTree = "<group>"; };
+		295839D316F30C8D00A14137 /* RowCounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowCounterViewController.m; sourceTree = "<group>"; };
+		295839D516F323B300A14137 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		295A6011171281BF00A22E97 /* CrochetBookmarks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrochetBookmarks.h; sourceTree = "<group>"; };
+		295A6012171281C000A22E97 /* CrochetBookmarks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrochetBookmarks.m; sourceTree = "<group>"; };
+		295A60141712822900A22E97 /* CrochetBookmarksDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrochetBookmarksDataController.h; sourceTree = "<group>"; };
+		295A60151712822900A22E97 /* CrochetBookmarksDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrochetBookmarksDataController.m; sourceTree = "<group>"; };
+		295BC5931679BD63004252CC /* CrochetPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrochetPattern.h; sourceTree = "<group>"; };
+		295BC5941679BD64004252CC /* CrochetPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrochetPattern.m; sourceTree = "<group>"; };
+		295BC5961679BFF9004252CC /* CrochetPatternDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrochetPatternDataController.h; sourceTree = "<group>"; };
+		295BC5971679BFF9004252CC /* CrochetPatternDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrochetPatternDataController.m; sourceTree = "<group>"; };
+		295BC5A01679C928004252CC /* PatternsMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternsMasterViewController.m; sourceTree = "<group>"; };
+		295BC5A21679C954004252CC /* PatternsMasterViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternsMasterViewCell.h; sourceTree = "<group>"; };
+		295BC5A91679DB76004252CC /* StitchesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StitchesDetailViewController.h; sourceTree = "<group>"; };
+		295BC5AA1679DB76004252CC /* StitchesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StitchesDetailViewController.m; sourceTree = "<group>"; };
+		295BC5AC1679DCB1004252CC /* PatternsMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternsMasterViewController.h; sourceTree = "<group>"; };
+		295BC5AD1679DD06004252CC /* PatternsMasterViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternsMasterViewCell.m; sourceTree = "<group>"; };
+		295BC5AF1679DDE8004252CC /* PatternsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternsDetailViewController.h; sourceTree = "<group>"; };
+		295BC5B01679DDE8004252CC /* PatternsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternsDetailViewController.m; sourceTree = "<group>"; };
+		29700CAA1623949F0032CF95 /* Crochet Central.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crochet Central.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29700CAE1623949F0032CF95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29700CB01623949F0032CF95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29700CB21623949F0032CF95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29700CB61623949F0032CF95 /* Crochet Central-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Crochet Central-Info.plist"; sourceTree = "<group>"; };
+		29700CB81623949F0032CF95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29700CBA1623949F0032CF95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29700CBC1623949F0032CF95 /* Crochet Central-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Crochet Central-Prefix.pch"; sourceTree = "<group>"; };
+		29700CBD1623949F0032CF95 /* CrochetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrochetAppDelegate.h; sourceTree = "<group>"; };
+		29700CBE1623949F0032CF95 /* CrochetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrochetAppDelegate.m; sourceTree = "<group>"; };
+		29700CC11623949F0032CF95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		29700CC61623949F0032CF95 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		29700CC81623949F0032CF95 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		29700CCD1623949F0032CF95 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		29700CCF1623949F0032CF95 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		297AF7A216DDC9C6005F2B84 /* CrochetBasics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrochetBasics.h; sourceTree = "<group>"; };
+		297AF7A316DDC9C6005F2B84 /* CrochetBasics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrochetBasics.m; sourceTree = "<group>"; };
+		297AF7A616DDCAF9005F2B84 /* CrochetBasicsDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrochetBasicsDataController.h; sourceTree = "<group>"; };
+		297AF7A716DDCAF9005F2B84 /* CrochetBasicsDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrochetBasicsDataController.m; sourceTree = "<group>"; };
+		297CF3CE171A8128008E13C9 /* BookmarksDetailChildViewDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksDetailChildViewDetail.h; sourceTree = "<group>"; };
+		297CF3CF171A8128008E13C9 /* BookmarksDetailChildViewDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksDetailChildViewDetail.m; sourceTree = "<group>"; };
+		297CF3D9171C03F6008E13C9 /* EffectOfTension1BIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EffectOfTension1BIG.png; sourceTree = "<group>"; };
+		297CF3DA171C03F7008E13C9 /* EffectOfTension2BIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EffectOfTension2BIG.png; sourceTree = "<group>"; };
+		297CF3DD171C07AD008E13C9 /* DoubleCrochetBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoubleCrochetBASICS_SMALL.png; sourceTree = "<group>"; };
+		297CF3DE171C07AD008E13C9 /* DoubleCrochetBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoubleCrochetBIG.png; sourceTree = "<group>"; };
+		297CF3DF171C07AD008E13C9 /* EffectOfTension1BASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EffectOfTension1BASICS_SMALL.png; sourceTree = "<group>"; };
+		297CF3E0171C07AD008E13C9 /* EffectOfTension2BASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EffectOfTension2BASICS_SMALL.png; sourceTree = "<group>"; };
+		297CF3E1171C07AE008E13C9 /* HalfDoubleCrochetBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HalfDoubleCrochetBIG.png; sourceTree = "<group>"; };
+		297CF3E2171C07AE008E13C9 /* HalfDoubleCrochetBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HalfDoubleCrochetBASICS_SMALL.png; sourceTree = "<group>"; };
+		297CF3E3171C07AE008E13C9 /* HooksBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HooksBASICS_SMALL.png; sourceTree = "<group>"; };
+		297CF3E4171C07AE008E13C9 /* HooksBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HooksBIG.png; sourceTree = "<group>"; };
+		297CF3E5171C07AF008E13C9 /* HookSizesBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HookSizesBASICS_SMALL.png; sourceTree = "<group>"; };
+		297CF3E6171C07AF008E13C9 /* HookSizesBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HookSizesBIG.png; sourceTree = "<group>"; };
+		297CF3E7171C07B0008E13C9 /* SingleCrochetBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SingleCrochetBASICS_SMALL.png; sourceTree = "<group>"; };
+		297CF3E8171C07B0008E13C9 /* SingleCrochetBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SingleCrochetBIG.png; sourceTree = "<group>"; };
+		297CF3E9171C07B1008E13C9 /* TripleCrochetBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TripleCrochetBASICS_SMALL.png; sourceTree = "<group>"; };
+		297CF3EA171C07B1008E13C9 /* TripleCrochetBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TripleCrochetBIG.png; sourceTree = "<group>"; };
+		297CF3EB171C07B1008E13C9 /* YarnBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YarnBASICS_SMALL.png; sourceTree = "<group>"; };
+		297CF3EC171C07B1008E13C9 /* YarnBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YarnBIG.png; sourceTree = "<group>"; };
+		297CF3FD171C0C57008E13C9 /* TripleCrochetSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TripleCrochetSMALL.png; sourceTree = "<group>"; };
+		297CF400171C0CAC008E13C9 /* HalfDoubleCrochetSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HalfDoubleCrochetSMALL.png; sourceTree = "<group>"; };
+		297CF401171C0CAE008E13C9 /* SingleCrochetSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SingleCrochetSMALL.png; sourceTree = "<group>"; };
+		297CF405171C117B008E13C9 /* DoubleCrochetSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoubleCrochetSMALL.png; sourceTree = "<group>"; };
+		298AD72A170830B900CA956C /* gridRulerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gridRulerIcon.png; sourceTree = "<group>"; };
+		298AD72C1708330000CA956C /* gridRulerIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gridRulerIcon2.png; sourceTree = "<group>"; };
+		29BC791C1672841700A5AA7C /* CrochetStitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrochetStitch.h; sourceTree = "<group>"; };
+		29BC791D1672841700A5AA7C /* CrochetStitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrochetStitch.m; sourceTree = "<group>"; };
+		29BC791F1672842900A5AA7C /* CrochetStitchDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrochetStitchDataController.h; sourceTree = "<group>"; };
+		29BC79201672842900A5AA7C /* CrochetStitchDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrochetStitchDataController.m; sourceTree = "<group>"; };
+		29BE109716734F56000F6A13 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = "Crochet Central/iTunesArtwork.png"; sourceTree = "<group>"; };
+		29DA9480172F17BF00AE43B1 /* basicsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basicsIcon.png; sourceTree = "<group>"; };
+		29DA9481172F17BF00AE43B1 /* patternsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patternsIcon.png; sourceTree = "<group>"; };
+		29DA9482172F17BF00AE43B1 /* stitchesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stitchesIcon.png; sourceTree = "<group>"; };
+		29DA9483172F17BF00AE43B1 /* tutorialIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorialIcon.png; sourceTree = "<group>"; };
+		29DA9488172F2F0F00AE43B1 /* RulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RulerView.h; path = "Crochet Central/RulerView.h"; sourceTree = "<group>"; };
+		29DA9489172F2F0F00AE43B1 /* RulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RulerView.m; path = "Crochet Central/RulerView.m"; sourceTree = "<group>"; };
+		29DA948A172F2F0F00AE43B1 /* RulerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RulerViewController.h; path = "Crochet Central/RulerViewController.h"; sourceTree = "<group>"; };
+		29DA948B172F2F0F00AE43B1 /* RulerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RulerViewController.m; path = "Crochet Central/RulerViewController.m"; sourceTree = "<group>"; };
+		29DA9492172F314D00AE43B1 /* step1placeholderBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1placeholderBASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA9493172F314D00AE43B1 /* step2placeholderBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2placeholderBASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA9494172F314D00AE43B1 /* step3placeholderBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step3placeholderBASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA9495172F314D00AE43B1 /* step4placeholderBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step4placeholderBASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA9496172F314D00AE43B1 /* step5placeholderBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step5placeholderBASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA949F172F71A300AE43B1 /* tutorial_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_3.png; sourceTree = "<group>"; };
+		29DA94A1172F763D00AE43B1 /* tutorial_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_4.png; sourceTree = "<group>"; };
+		29DA94A2172F763D00AE43B1 /* tutorial_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_5.png; sourceTree = "<group>"; };
+		29DA94A5172F8EA000AE43B1 /* tutorial_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_6.png; sourceTree = "<group>"; };
+		29DA94A6172F8EA000AE43B1 /* tutorial_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_7.png; sourceTree = "<group>"; };
+		29DA94A7172F8EA000AE43B1 /* tutorial_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_8.png; sourceTree = "<group>"; };
+		29DA94A8172F8EA000AE43B1 /* tutorial_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_9.png; sourceTree = "<group>"; };
+		29DA94AD172FC7B900AE43B1 /* ChainStep5BIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChainStep5BIG.png; sourceTree = "<group>"; };
+		29DA94AE172FC7B900AE43B1 /* HoldYarnStep2BIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HoldYarnStep2BIG.png; sourceTree = "<group>"; };
+		29DA94AF172FC7B900AE43B1 /* HoldYarnStep3BIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HoldYarnStep3BIG.png; sourceTree = "<group>"; };
+		29DA94B0172FC7B900AE43B1 /* LegCurlBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LegCurlBIG.png; sourceTree = "<group>"; };
+		29DA94B1172FC7B900AE43B1 /* SlipStitchStep2BIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlipStitchStep2BIG.png; sourceTree = "<group>"; };
+		29DA94B2172FC7B900AE43B1 /* SlipStitchStep3aBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlipStitchStep3aBIG.png; sourceTree = "<group>"; };
+		29DA94B3172FC7BA00AE43B1 /* SlipStitchStep3bBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlipStitchStep3bBIG.png; sourceTree = "<group>"; };
+		29DA94B4172FC7BA00AE43B1 /* SlipStitchStep4BIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlipStitchStep4BIG.png; sourceTree = "<group>"; };
+		29DA94B5172FC7BA00AE43B1 /* SpotsBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpotsBIG.png; sourceTree = "<group>"; };
+		29DA94BF172FCE0500AE43B1 /* ChainStep5BASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChainStep5BASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA94C0172FCE0600AE43B1 /* ChainStep5SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChainStep5SMALL.png; sourceTree = "<group>"; };
+		29DA94C1172FCE0600AE43B1 /* HoldYarnStep2BASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HoldYarnStep2BASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA94C2172FCE0600AE43B1 /* HoldYarnStep2SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HoldYarnStep2SMALL.png; sourceTree = "<group>"; };
+		29DA94C3172FCE0600AE43B1 /* HoldYarnStep3BASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HoldYarnStep3BASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA94C4172FCE0700AE43B1 /* HoldYarnStep3SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HoldYarnStep3SMALL.png; sourceTree = "<group>"; };
+		29DA94C5172FCE0700AE43B1 /* LegCurlBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LegCurlBASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA94C6172FCE0700AE43B1 /* LegCurlSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LegCurlSMALL.png; sourceTree = "<group>"; };
+		29DA94C7172FCE0700AE43B1 /* SlipStitchStep2BASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlipStitchStep2BASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA94C8172FCE0800AE43B1 /* SlipStitchStep2SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlipStitchStep2SMALL.png; sourceTree = "<group>"; };
+		29DA94C9172FCE0800AE43B1 /* SlipStitchStep3aBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlipStitchStep3aBASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA94CA172FCE0900AE43B1 /* SlipStitchStep3aSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlipStitchStep3aSMALL.png; sourceTree = "<group>"; };
+		29DA94CB172FCE0900AE43B1 /* SlipStitchStep3bBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlipStitchStep3bBASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA94CC172FCE0A00AE43B1 /* SlipStitchStep3bSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlipStitchStep3bSMALL.png; sourceTree = "<group>"; };
+		29DA94CD172FCE0A00AE43B1 /* SlipStitchStep4BASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlipStitchStep4BASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA94CE172FCE0A00AE43B1 /* SlipStitchStep4SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlipStitchStep4SMALL.png; sourceTree = "<group>"; };
+		29DA94CF172FCE0B00AE43B1 /* SpotsBASICS_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpotsBASICS_SMALL.png; sourceTree = "<group>"; };
+		29DA94D0172FCE0B00AE43B1 /* SpotsSMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpotsSMALL.png; sourceTree = "<group>"; };
+		29E8F7E517100EF800014421 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		29E8F7E617100EF800014421 /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		29E8F7E81711FFCF00014421 /* tutorial_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_1.png; sourceTree = "<group>"; };
+		29E8F7EC1712009C00014421 /* tutorial_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_2.png; sourceTree = "<group>"; };
+		29E8F7F117121BB100014421 /* BookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksViewController.h; sourceTree = "<group>"; };
+		29E8F7F217121BB100014421 /* BookmarksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksViewController.m; sourceTree = "<group>"; };
+		29F80AFD165A66D700A87F31 /* BasicsMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicsMasterViewController.h; sourceTree = "<group>"; };
+		29F80AFE165A66D800A87F31 /* BasicsMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicsMasterViewController.m; sourceTree = "<group>"; };
+		29F80B00165A66F600A87F31 /* BasicsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicsDetailViewController.h; sourceTree = "<group>"; };
+		29F80B01165A66F600A87F31 /* BasicsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicsDetailViewController.m; sourceTree = "<group>"; };
+		29FB08DC16E9D67E00579DDB /* BasicsChildDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicsChildDetailViewController.h; sourceTree = "<group>"; };
+		29FB08DD16E9D67E00579DDB /* BasicsChildDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicsChildDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29700CA71623949F0032CF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29700CAF1623949F0032CF95 /* UIKit.framework in Frameworks */,
+				29700CB11623949F0032CF95 /* Foundation.framework in Frameworks */,
+				29700CB31623949F0032CF95 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29156DA0167C150000EE64D1 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				297CF405171C117B008E13C9 /* DoubleCrochetSMALL.png */,
+				297CF400171C0CAC008E13C9 /* HalfDoubleCrochetSMALL.png */,
+				297CF401171C0CAE008E13C9 /* SingleCrochetSMALL.png */,
+				297CF3D9171C03F6008E13C9 /* EffectOfTension1BIG.png */,
+				297CF3DA171C03F7008E13C9 /* EffectOfTension2BIG.png */,
+				297CF3DD171C07AD008E13C9 /* DoubleCrochetBASICS_SMALL.png */,
+				297CF3DE171C07AD008E13C9 /* DoubleCrochetBIG.png */,
+				297CF3DF171C07AD008E13C9 /* EffectOfTension1BASICS_SMALL.png */,
+				297CF3E0171C07AD008E13C9 /* EffectOfTension2BASICS_SMALL.png */,
+				297CF3E1171C07AE008E13C9 /* HalfDoubleCrochetBIG.png */,
+				297CF3E2171C07AE008E13C9 /* HalfDoubleCrochetBASICS_SMALL.png */,
+				297CF3E3171C07AE008E13C9 /* HooksBASICS_SMALL.png */,
+				297CF3E4171C07AE008E13C9 /* HooksBIG.png */,
+				297CF3E5171C07AF008E13C9 /* HookSizesBASICS_SMALL.png */,
+				297CF3E6171C07AF008E13C9 /* HookSizesBIG.png */,
+				297CF3E7171C07B0008E13C9 /* SingleCrochetBASICS_SMALL.png */,
+				297CF3E8171C07B0008E13C9 /* SingleCrochetBIG.png */,
+				297CF3E9171C07B1008E13C9 /* TripleCrochetBASICS_SMALL.png */,
+				297CF3EA171C07B1008E13C9 /* TripleCrochetBIG.png */,
+				297CF3FD171C0C57008E13C9 /* TripleCrochetSMALL.png */,
+				297CF3EB171C07B1008E13C9 /* YarnBASICS_SMALL.png */,
+				297CF3EC171C07B1008E13C9 /* YarnBIG.png */,
+				29DA94AD172FC7B900AE43B1 /* ChainStep5BIG.png */,
+				29DA94AE172FC7B900AE43B1 /* HoldYarnStep2BIG.png */,
+				29DA94AF172FC7B900AE43B1 /* HoldYarnStep3BIG.png */,
+				29DA94B0172FC7B900AE43B1 /* LegCurlBIG.png */,
+				29DA94B1172FC7B900AE43B1 /* SlipStitchStep2BIG.png */,
+				29DA94B2172FC7B900AE43B1 /* SlipStitchStep3aBIG.png */,
+				29DA94B3172FC7BA00AE43B1 /* SlipStitchStep3bBIG.png */,
+				29DA94B4172FC7BA00AE43B1 /* SlipStitchStep4BIG.png */,
+				29DA94B5172FC7BA00AE43B1 /* SpotsBIG.png */,
+				29DA94BF172FCE0500AE43B1 /* ChainStep5BASICS_SMALL.png */,
+				29DA94C0172FCE0600AE43B1 /* ChainStep5SMALL.png */,
+				29DA94C1172FCE0600AE43B1 /* HoldYarnStep2BASICS_SMALL.png */,
+				29DA94C2172FCE0600AE43B1 /* HoldYarnStep2SMALL.png */,
+				29DA94C3172FCE0600AE43B1 /* HoldYarnStep3BASICS_SMALL.png */,
+				29DA94C4172FCE0700AE43B1 /* HoldYarnStep3SMALL.png */,
+				29DA94C5172FCE0700AE43B1 /* LegCurlBASICS_SMALL.png */,
+				29DA94C6172FCE0700AE43B1 /* LegCurlSMALL.png */,
+				29DA94C7172FCE0700AE43B1 /* SlipStitchStep2BASICS_SMALL.png */,
+				29DA94C8172FCE0800AE43B1 /* SlipStitchStep2SMALL.png */,
+				29DA94C9172FCE0800AE43B1 /* SlipStitchStep3aBASICS_SMALL.png */,
+				29DA94CA172FCE0900AE43B1 /* SlipStitchStep3aSMALL.png */,
+				29DA94CB172FCE0900AE43B1 /* SlipStitchStep3bBASICS_SMALL.png */,
+				29DA94CC172FCE0A00AE43B1 /* SlipStitchStep3bSMALL.png */,
+				29DA94CD172FCE0A00AE43B1 /* SlipStitchStep4BASICS_SMALL.png */,
+				29DA94CE172FCE0A00AE43B1 /* SlipStitchStep4SMALL.png */,
+				29DA94CF172FCE0B00AE43B1 /* SpotsBASICS_SMALL.png */,
+				29DA94D0172FCE0B00AE43B1 /* SpotsSMALL.png */,
+				291CE5BA172FDAD100E471B9 /* UnfinishedOctopusBASICS_SMALL.png */,
+				291CE5BB172FDAD100E471B9 /* UnfinishedOctopusBIG.png */,
+				291CE5BC172FDAD100E471B9 /* UnfinishedOctopusSMALL.png */,
+			);
+			name = Content;
+			sourceTree = "<group>";
+		};
+		29156DA2167C1E8A00EE64D1 /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				298AD72A170830B900CA956C /* gridRulerIcon.png */,
+				29DA9480172F17BF00AE43B1 /* basicsIcon.png */,
+				29DA9481172F17BF00AE43B1 /* patternsIcon.png */,
+				29DA9482172F17BF00AE43B1 /* stitchesIcon.png */,
+				29DA9483172F17BF00AE43B1 /* tutorialIcon.png */,
+				298AD72C1708330000CA956C /* gridRulerIcon2.png */,
+				29700CCF1623949F0032CF95 /* second@2x.png */,
+				29700CCD1623949F0032CF95 /* second.png */,
+				29700CC81623949F0032CF95 /* first@2x.png */,
+				29700CC61623949F0032CF95 /* first.png */,
+			);
+			name = "Tab Bar Icons";
+			sourceTree = "<group>";
+		};
+		294A48E0170C2718008D9455 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				29E8F7E517100EF800014421 /* TutorialViewController.h */,
+				29E8F7E617100EF800014421 /* TutorialViewController.m */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		295839CB16F2CD7500A14137 /* Row Counter */ = {
+			isa = PBXGroup;
+			children = (
+				295839D216F30C8D00A14137 /* RowCounterViewController.h */,
+				295839D316F30C8D00A14137 /* RowCounterViewController.m */,
+			);
+			name = "Row Counter";
+			sourceTree = "<group>";
+		};
+		295B58AE16E882B600675D83 /* Grid Ruler */ = {
+			isa = PBXGroup;
+			children = (
+				29DA9488172F2F0F00AE43B1 /* RulerView.h */,
+				29DA9489172F2F0F00AE43B1 /* RulerView.m */,
+				29DA948A172F2F0F00AE43B1 /* RulerViewController.h */,
+				29DA948B172F2F0F00AE43B1 /* RulerViewController.m */,
+			);
+			name = "Grid Ruler";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		295BC5B21679DE38004252CC /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				29F80AFD165A66D700A87F31 /* BasicsMasterViewController.h */,
+				29F80AFE165A66D800A87F31 /* BasicsMasterViewController.m */,
+				29F80B00165A66F600A87F31 /* BasicsDetailViewController.h */,
+				29F80B01165A66F600A87F31 /* BasicsDetailViewController.m */,
+				29FB08DC16E9D67E00579DDB /* BasicsChildDetailViewController.h */,
+				29FB08DD16E9D67E00579DDB /* BasicsChildDetailViewController.m */,
+			);
+			name = Basics;
+			sourceTree = "<group>";
+		};
+		295BC5B31679DE58004252CC /* Stitches */ = {
+			isa = PBXGroup;
+			children = (
+				291DBFFC16703BDC00F43451 /* StitchesMasterViewController.h */,
+				291DBFFD16703BDC00F43451 /* StitchesMasterViewController.m */,
+				291DBFF916703BB200F43451 /* StitchesMasterViewCell.h */,
+				291DBFFA16703BB200F43451 /* StitchesMasterViewCell.m */,
+				295BC5A91679DB76004252CC /* StitchesDetailViewController.h */,
+				295BC5AA1679DB76004252CC /* StitchesDetailViewController.m */,
+				29156D8E167B633400EE64D1 /* StitchesDetailChildViewController.h */,
+				29156D8F167B633500EE64D1 /* StitchesDetailChildViewController.m */,
+				29156D91167B642000EE64D1 /* StitchesDetailChildViewCell.h */,
+				29156D92167B642100EE64D1 /* StitchesDetailChildViewCell.m */,
+				295160EF167D274C000434FB /* StitchesChildViewDetail.h */,
+				295160F0167D274C000434FB /* StitchesChildViewDetail.m */,
+			);
+			name = Stitches;
+			sourceTree = "<group>";
+		};
+		295BC5B41679DE7F004252CC /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				295BC5AC1679DCB1004252CC /* PatternsMasterViewController.h */,
+				295BC5A01679C928004252CC /* PatternsMasterViewController.m */,
+				295BC5A21679C954004252CC /* PatternsMasterViewCell.h */,
+				295BC5AD1679DD06004252CC /* PatternsMasterViewCell.m */,
+				295BC5AF1679DDE8004252CC /* PatternsDetailViewController.h */,
+				295BC5B01679DDE8004252CC /* PatternsDetailViewController.m */,
+				29516129167D8587000434FB /* PatternsDetailChildViewController.h */,
+				2951612A167D8587000434FB /* PatternsDetailChildViewController.m */,
+				2951612C167D85B4000434FB /* PatternsDetailChildViewCell.h */,
+				2951612D167D85B4000434FB /* PatternsDetailChildViewCell.m */,
+				2951612F167D85E6000434FB /* PatternsChildViewDetail.h */,
+				29516130167D85E7000434FB /* PatternsChildViewDetail.m */,
+			);
+			name = Patterns;
+			sourceTree = "<group>";
+		};
+		29700C9F1623949F0032CF95 = {
+			isa = PBXGroup;
+			children = (
+				29BE109716734F56000F6A13 /* iTunesArtwork.png */,
+				29700CB41623949F0032CF95 /* Crochet Central */,
+				29700CAD1623949F0032CF95 /* Frameworks */,
+				29700CAB1623949F0032CF95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29700CAB1623949F0032CF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29700CAA1623949F0032CF95 /* Crochet Central.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29700CAD1623949F0032CF95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29700CAE1623949F0032CF95 /* UIKit.framework */,
+				29700CB01623949F0032CF95 /* Foundation.framework */,
+				29700CB21623949F0032CF95 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29700CB41623949F0032CF95 /* Crochet Central */ = {
+			isa = PBXGroup;
+			children = (
+				29BC791C1672841700A5AA7C /* CrochetStitch.h */,
+				29BC791D1672841700A5AA7C /* CrochetStitch.m */,
+				29BC791F1672842900A5AA7C /* CrochetStitchDataController.h */,
+				29BC79201672842900A5AA7C /* CrochetStitchDataController.m */,
+				295BC5931679BD63004252CC /* CrochetPattern.h */,
+				295BC5941679BD64004252CC /* CrochetPattern.m */,
+				295BC5961679BFF9004252CC /* CrochetPatternDataController.h */,
+				295BC5971679BFF9004252CC /* CrochetPatternDataController.m */,
+				297AF7A216DDC9C6005F2B84 /* CrochetBasics.h */,
+				297AF7A316DDC9C6005F2B84 /* CrochetBasics.m */,
+				297AF7A616DDCAF9005F2B84 /* CrochetBasicsDataController.h */,
+				297AF7A716DDCAF9005F2B84 /* CrochetBasicsDataController.m */,
+				29700CBD1623949F0032CF95 /* CrochetAppDelegate.h */,
+				29700CBE1623949F0032CF95 /* CrochetAppDelegate.m */,
+				295BC5B21679DE38004252CC /* Basics */,
+				29E8F7F017121B0D00014421 /* Bookmarks */,
+				295BC5B31679DE58004252CC /* Stitches */,
+				295BC5B41679DE7F004252CC /* Patterns */,
+				295B58AE16E882B600675D83 /* Grid Ruler */,
+				295839CB16F2CD7500A14137 /* Row Counter */,
+				294A48E0170C2718008D9455 /* Tutorial */,
+				29700CB51623949F0032CF95 /* Supporting Files */,
+			);
+			path = "Crochet Central";
+			sourceTree = "<group>";
+		};
+		29700CB51623949F0032CF95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29DA948E172F305500AE43B1 /* Images */,
+				29700CB61623949F0032CF95 /* Crochet Central-Info.plist */,
+				29700CC01623949F0032CF95 /* MainStoryboard.storyboard */,
+				29700CB71623949F0032CF95 /* InfoPlist.strings */,
+				29700CBA1623949F0032CF95 /* main.m */,
+				29700CBC1623949F0032CF95 /* Crochet Central-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29DA948E172F305500AE43B1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				29DA949E172F685400AE43B1 /* Tutorial */,
+				29156DA0167C150000EE64D1 /* Content */,
+				29DA9491172F30EC00AE43B1 /* Buttons */,
+				29156DA2167C1E8A00EE64D1 /* Tab Bar Icons */,
+				29DA9490172F30B100AE43B1 /* Tool Bar Icons */,
+				29DA948F172F305F00AE43B1 /* Place Holders */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		29DA948F172F305F00AE43B1 /* Place Holders */ = {
+			isa = PBXGroup;
+			children = (
+				29516110167D65B9000434FB /* step1placeholderBIG.png */,
+				29516111167D65B9000434FB /* step1placeholderSMALL.png */,
+				29516113167D65BA000434FB /* step2placeholderSMALL.png */,
+				29516114167D65BA000434FB /* step3placeholderBIG.png */,
+				29516115167D65BA000434FB /* step3placeholderSMALL.png */,
+				29516116167D65BA000434FB /* step4placeholderBIG.png */,
+				29516112167D65B9000434FB /* step2placeholderBIG.png */,
+				29516117167D65BA000434FB /* step4placeholderSMALL.png */,
+				29516118167D65BB000434FB /* step5placeholderBIG.png */,
+				29516119167D65BB000434FB /* step5placeholderSMALL.png */,
+				29516132167D8D17000434FB /* doublecrochetplaceholderBIG.png */,
+				29516134167D8D17000434FB /* halfdoublecrochetplaceholderBIG.png */,
+				29516136167D8D17000434FB /* singlecrochetplaceholderBIG.png */,
+				29516133167D8D17000434FB /* doublecrochetplaceholderSMALL.png */,
+				29516135167D8D17000434FB /* halfdoublecrochetplaceholderSMALL.png */,
+				29516137167D8D18000434FB /* singlecrochetplaceholderSMALL.png */,
+				29DA9492172F314D00AE43B1 /* step1placeholderBASICS_SMALL.png */,
+				29DA9493172F314D00AE43B1 /* step2placeholderBASICS_SMALL.png */,
+				29DA9494172F314D00AE43B1 /* step3placeholderBASICS_SMALL.png */,
+				29DA9495172F314D00AE43B1 /* step4placeholderBASICS_SMALL.png */,
+				29DA9496172F314D00AE43B1 /* step5placeholderBASICS_SMALL.png */,
+			);
+			name = "Place Holders";
+			sourceTree = "<group>";
+		};
+		29DA9490172F30B100AE43B1 /* Tool Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				294954DC1718309E00292C93 /* addBookmarkEmpty.png */,
+				294954DD1718309E00292C93 /* addBookmarkFilled.png */,
+			);
+			name = "Tool Bar Icons";
+			sourceTree = "<group>";
+		};
+		29DA9491172F30EC00AE43B1 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				295839D516F323B300A14137 /* reset.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		29DA949E172F685400AE43B1 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				29E8F7E81711FFCF00014421 /* tutorial_1.png */,
+				29E8F7EC1712009C00014421 /* tutorial_2.png */,
+				29DA949F172F71A300AE43B1 /* tutorial_3.png */,
+				29DA94A1172F763D00AE43B1 /* tutorial_4.png */,
+				29DA94A2172F763D00AE43B1 /* tutorial_5.png */,
+				29DA94A5172F8EA000AE43B1 /* tutorial_6.png */,
+				29DA94A6172F8EA000AE43B1 /* tutorial_7.png */,
+				29DA94A7172F8EA000AE43B1 /* tutorial_8.png */,
+				29DA94A8172F8EA000AE43B1 /* tutorial_9.png */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		29E8F7F017121B0D00014421 /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				295A6011171281BF00A22E97 /* CrochetBookmarks.h */,
+				295A6012171281C000A22E97 /* CrochetBookmarks.m */,
+				295A60141712822900A22E97 /* CrochetBookmarksDataController.h */,
+				295A60151712822900A22E97 /* CrochetBookmarksDataController.m */,
+				29E8F7F117121BB100014421 /* BookmarksViewController.h */,
+				29E8F7F217121BB100014421 /* BookmarksViewController.m */,
+				294954E01718D66C00292C93 /* BookmarksDetailViewController.h */,
+				294954E11718D66D00292C93 /* BookmarksDetailViewController.m */,
+				294954E31718E22E00292C93 /* BookmarksDetailChildViewController.h */,
+				294954E41718E22E00292C93 /* BookmarksDetailChildViewController.m */,
+				294954E91718E70D00292C93 /* BookmarksDetailChildViewCell.h */,
+				294954EA1718E70D00292C93 /* BookmarksDetailChildViewCell.m */,
+				297CF3CE171A8128008E13C9 /* BookmarksDetailChildViewDetail.h */,
+				297CF3CF171A8128008E13C9 /* BookmarksDetailChildViewDetail.m */,
+			);
+			name = Bookmarks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29700CA91623949F0032CF95 /* Crochet Central */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29700CD31623949F0032CF95 /* Build configuration list for PBXNativeTarget "Crochet Central" */;
+			buildPhases = (
+				29700CA61623949F0032CF95 /* Sources */,
+				29700CA71623949F0032CF95 /* Frameworks */,
+				29700CA81623949F0032CF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crochet Central";
+			productName = "Crochet Central";
+			productReference = 29700CAA1623949F0032CF95 /* Crochet Central.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29700CA11623949F0032CF95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Crochet;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Anna Harrison";
+			};
+			buildConfigurationList = 29700CA41623949F0032CF95 /* Build configuration list for PBXProject "Crochet Central" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29700C9F1623949F0032CF95;
+			productRefGroup = 29700CAB1623949F0032CF95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29700CA91623949F0032CF95 /* Crochet Central */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29700CA81623949F0032CF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29700CB91623949F0032CF95 /* InfoPlist.strings in Resources */,
+				29700CC21623949F0032CF95 /* MainStoryboard.storyboard in Resources */,
+				29700CC71623949F0032CF95 /* first.png in Resources */,
+				29700CC91623949F0032CF95 /* first@2x.png in Resources */,
+				29700CCE1623949F0032CF95 /* second.png in Resources */,
+				29700CD01623949F0032CF95 /* second@2x.png in Resources */,
+				29BE109816734F56000F6A13 /* iTunesArtwork.png in Resources */,
+				2951611A167D65BB000434FB /* step1placeholderBIG.png in Resources */,
+				2951611B167D65BB000434FB /* step1placeholderSMALL.png in Resources */,
+				2951611C167D65BB000434FB /* step2placeholderBIG.png in Resources */,
+				2951611D167D65BB000434FB /* step2placeholderSMALL.png in Resources */,
+				2951611E167D65BB000434FB /* step3placeholderBIG.png in Resources */,
+				2951611F167D65BB000434FB /* step3placeholderSMALL.png in Resources */,
+				29516120167D65BB000434FB /* step4placeholderBIG.png in Resources */,
+				29516121167D65BB000434FB /* step4placeholderSMALL.png in Resources */,
+				29516122167D65BB000434FB /* step5placeholderBIG.png in Resources */,
+				29516123167D65BB000434FB /* step5placeholderSMALL.png in Resources */,
+				29516138167D8D18000434FB /* doublecrochetplaceholderBIG.png in Resources */,
+				29516139167D8D18000434FB /* doublecrochetplaceholderSMALL.png in Resources */,
+				2951613A167D8D18000434FB /* halfdoublecrochetplaceholderBIG.png in Resources */,
+				2951613B167D8D18000434FB /* halfdoublecrochetplaceholderSMALL.png in Resources */,
+				2951613C167D8D18000434FB /* singlecrochetplaceholderBIG.png in Resources */,
+				2951613D167D8D18000434FB /* singlecrochetplaceholderSMALL.png in Resources */,
+				295839D616F323B300A14137 /* reset.png in Resources */,
+				298AD72B170830B900CA956C /* gridRulerIcon.png in Resources */,
+				298AD72D1708330000CA956C /* gridRulerIcon2.png in Resources */,
+				29E8F7E91711FFCF00014421 /* tutorial_1.png in Resources */,
+				29E8F7ED1712009C00014421 /* tutorial_2.png in Resources */,
+				294954DE1718309E00292C93 /* addBookmarkEmpty.png in Resources */,
+				294954DF1718309E00292C93 /* addBookmarkFilled.png in Resources */,
+				297CF3DB171C03F7008E13C9 /* EffectOfTension1BIG.png in Resources */,
+				297CF3DC171C03F7008E13C9 /* EffectOfTension2BIG.png in Resources */,
+				297CF3ED171C07B1008E13C9 /* DoubleCrochetBASICS_SMALL.png in Resources */,
+				297CF3EE171C07B1008E13C9 /* DoubleCrochetBIG.png in Resources */,
+				297CF3EF171C07B1008E13C9 /* EffectOfTension1BASICS_SMALL.png in Resources */,
+				297CF3F0171C07B1008E13C9 /* EffectOfTension2BASICS_SMALL.png in Resources */,
+				297CF3F1171C07B1008E13C9 /* HalfDoubleCrochetBIG.png in Resources */,
+				297CF3F2171C07B1008E13C9 /* HalfDoubleCrochetBASICS_SMALL.png in Resources */,
+				297CF3F3171C07B1008E13C9 /* HooksBASICS_SMALL.png in Resources */,
+				297CF3F4171C07B1008E13C9 /* HooksBIG.png in Resources */,
+				297CF3F5171C07B1008E13C9 /* HookSizesBASICS_SMALL.png in Resources */,
+				297CF3F6171C07B1008E13C9 /* HookSizesBIG.png in Resources */,
+				297CF3F7171C07B1008E13C9 /* SingleCrochetBASICS_SMALL.png in Resources */,
+				297CF3F8171C07B1008E13C9 /* SingleCrochetBIG.png in Resources */,
+				297CF3F9171C07B1008E13C9 /* TripleCrochetBASICS_SMALL.png in Resources */,
+				297CF3FA171C07B1008E13C9 /* TripleCrochetBIG.png in Resources */,
+				297CF3FB171C07B1008E13C9 /* YarnBASICS_SMALL.png in Resources */,
+				297CF3FC171C07B1008E13C9 /* YarnBIG.png in Resources */,
+				297CF3FE171C0C58008E13C9 /* TripleCrochetSMALL.png in Resources */,
+				297CF403171C0CAF008E13C9 /* HalfDoubleCrochetSMALL.png in Resources */,
+				297CF404171C0CAF008E13C9 /* SingleCrochetSMALL.png in Resources */,
+				297CF406171C117D008E13C9 /* DoubleCrochetSMALL.png in Resources */,
+				29DA9484172F17BF00AE43B1 /* basicsIcon.png in Resources */,
+				29DA9485172F17BF00AE43B1 /* patternsIcon.png in Resources */,
+				29DA9486172F17BF00AE43B1 /* stitchesIcon.png in Resources */,
+				29DA9487172F17BF00AE43B1 /* tutorialIcon.png in Resources */,
+				29DA9497172F314D00AE43B1 /* step1placeholderBASICS_SMALL.png in Resources */,
+				29DA9498172F314D00AE43B1 /* step2placeholderBASICS_SMALL.png in Resources */,
+				29DA9499172F314D00AE43B1 /* step3placeholderBASICS_SMALL.png in Resources */,
+				29DA949A172F314D00AE43B1 /* step4placeholderBASICS_SMALL.png in Resources */,
+				29DA949B172F314D00AE43B1 /* step5placeholderBASICS_SMALL.png in Resources */,
+				29DA94A0172F71A300AE43B1 /* tutorial_3.png in Resources */,
+				29DA94A3172F763D00AE43B1 /* tutorial_4.png in Resources */,
+				29DA94A4172F763D00AE43B1 /* tutorial_5.png in Resources */,
+				29DA94A9172F8EA000AE43B1 /* tutorial_6.png in Resources */,
+				29DA94AA172F8EA000AE43B1 /* tutorial_7.png in Resources */,
+				29DA94AB172F8EA000AE43B1 /* tutorial_8.png in Resources */,
+				29DA94AC172F8EA000AE43B1 /* tutorial_9.png in Resources */,
+				29DA94B6172FC7BA00AE43B1 /* ChainStep5BIG.png in Resources */,
+				29DA94B7172FC7BA00AE43B1 /* HoldYarnStep2BIG.png in Resources */,
+				29DA94B8172FC7BA00AE43B1 /* HoldYarnStep3BIG.png in Resources */,
+				29DA94B9172FC7BA00AE43B1 /* LegCurlBIG.png in Resources */,
+				29DA94BA172FC7BA00AE43B1 /* SlipStitchStep2BIG.png in Resources */,
+				29DA94BB172FC7BA00AE43B1 /* SlipStitchStep3aBIG.png in Resources */,
+				29DA94BC172FC7BA00AE43B1 /* SlipStitchStep3bBIG.png in Resources */,
+				29DA94BD172FC7BA00AE43B1 /* SlipStitchStep4BIG.png in Resources */,
+				29DA94BE172FC7BA00AE43B1 /* SpotsBIG.png in Resources */,
+				29DA94D1172FCE0B00AE43B1 /* ChainStep5BASICS_SMALL.png in Resources */,
+				29DA94D2172FCE0B00AE43B1 /* ChainStep5SMALL.png in Resources */,
+				29DA94D3172FCE0B00AE43B1 /* HoldYarnStep2BASICS_SMALL.png in Resources */,
+				29DA94D4172FCE0B00AE43B1 /* HoldYarnStep2SMALL.png in Resources */,
+				29DA94D5172FCE0B00AE43B1 /* HoldYarnStep3BASICS_SMALL.png in Resources */,
+				29DA94D6172FCE0B00AE43B1 /* HoldYarnStep3SMALL.png in Resources */,
+				29DA94D7172FCE0B00AE43B1 /* LegCurlBASICS_SMALL.png in Resources */,
+				29DA94D8172FCE0B00AE43B1 /* LegCurlSMALL.png in Resources */,
+				29DA94D9172FCE0B00AE43B1 /* SlipStitchStep2BASICS_SMALL.png in Resources */,
+				29DA94DA172FCE0B00AE43B1 /* SlipStitchStep2SMALL.png in Resources */,
+				29DA94DB172FCE0B00AE43B1 /* SlipStitchStep3aBASICS_SMALL.png in Resources */,
+				29DA94DC172FCE0B00AE43B1 /* SlipStitchStep3aSMALL.png in Resources */,
+				29DA94DD172FCE0B00AE43B1 /* SlipStitchStep3bBASICS_SMALL.png in Resources */,
+				29DA94DE172FCE0B00AE43B1 /* SlipStitchStep3bSMALL.png in Resources */,
+				29DA94DF172FCE0B00AE43B1 /* SlipStitchStep4BASICS_SMALL.png in Resources */,
+				29DA94E0172FCE0B00AE43B1 /* SlipStitchStep4SMALL.png in Resources */,
+				29DA94E1172FCE0B00AE43B1 /* SpotsBASICS_SMALL.png in Resources */,
+				29DA94E2172FCE0B00AE43B1 /* SpotsSMALL.png in Resources */,
+				291CE5BD172FDAD100E471B9 /* UnfinishedOctopusBASICS_SMALL.png in Resources */,
+				291CE5BE172FDAD100E471B9 /* UnfinishedOctopusBIG.png in Resources */,
+				291CE5BF172FDAD100E471B9 /* UnfinishedOctopusSMALL.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29700CA61623949F0032CF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29700CBB1623949F0032CF95 /* main.m in Sources */,
+				29700CBF1623949F0032CF95 /* CrochetAppDelegate.m in Sources */,
+				29F80AFF165A66D800A87F31 /* BasicsMasterViewController.m in Sources */,
+				29F80B02165A66F600A87F31 /* BasicsDetailViewController.m in Sources */,
+				291DBFFB16703BB200F43451 /* StitchesMasterViewCell.m in Sources */,
+				291DBFFE16703BDD00F43451 /* StitchesMasterViewController.m in Sources */,
+				29BC791E1672841700A5AA7C /* CrochetStitch.m in Sources */,
+				29BC79211672842A00A5AA7C /* CrochetStitchDataController.m in Sources */,
+				295BC5951679BD64004252CC /* CrochetPattern.m in Sources */,
+				295BC5981679BFF9004252CC /* CrochetPatternDataController.m in Sources */,
+				295BC5A11679C929004252CC /* PatternsMasterViewController.m in Sources */,
+				295BC5AB1679DB77004252CC /* StitchesDetailViewController.m in Sources */,
+				295BC5AE1679DD06004252CC /* PatternsMasterViewCell.m in Sources */,
+				295BC5B11679DDE9004252CC /* PatternsDetailViewController.m in Sources */,
+				29156D90167B633500EE64D1 /* StitchesDetailChildViewController.m in Sources */,
+				29156D93167B642100EE64D1 /* StitchesDetailChildViewCell.m in Sources */,
+				295160F1167D274C000434FB /* StitchesChildViewDetail.m in Sources */,
+				2951612B167D8587000434FB /* PatternsDetailChildViewController.m in Sources */,
+				2951612E167D85B5000434FB /* PatternsDetailChildViewCell.m in Sources */,
+				29516131167D85E7000434FB /* PatternsChildViewDetail.m in Sources */,
+				297AF7A416DDC9C6005F2B84 /* CrochetBasics.m in Sources */,
+				297AF7A816DDCAF9005F2B84 /* CrochetBasicsDataController.m in Sources */,
+				29FB08DE16E9D67E00579DDB /* BasicsChildDetailViewController.m in Sources */,
+				295839D416F30C8D00A14137 /* RowCounterViewController.m in Sources */,
+				29E8F7E717100EF800014421 /* TutorialViewController.m in Sources */,
+				29E8F7F317121BB100014421 /* BookmarksViewController.m in Sources */,
+				295A6013171281C000A22E97 /* CrochetBookmarks.m in Sources */,
+				295A60161712822900A22E97 /* CrochetBookmarksDataController.m in Sources */,
+				294954E21718D66D00292C93 /* BookmarksDetailViewController.m in Sources */,
+				294954E51718E22F00292C93 /* BookmarksDetailChildViewController.m in Sources */,
+				294954EB1718E70D00292C93 /* BookmarksDetailChildViewCell.m in Sources */,
+				297CF3D0171A8128008E13C9 /* BookmarksDetailChildViewDetail.m in Sources */,
+				29DA948C172F2F0F00AE43B1 /* RulerView.m in Sources */,
+				29DA948D172F2F0F00AE43B1 /* RulerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29700CB71623949F0032CF95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29700CB81623949F0032CF95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29700CC01623949F0032CF95 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29700CC11623949F0032CF95 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29700CD11623949F0032CF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		29700CD21623949F0032CF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29700CD41623949F0032CF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crochet Central/Crochet Central-Prefix.pch";
+				INFOPLIST_FILE = "Crochet Central/Crochet Central-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnnaHarrison.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29700CD51623949F0032CF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Crochet Central/Crochet Central-Prefix.pch";
+				INFOPLIST_FILE = "Crochet Central/Crochet Central-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnnaHarrison.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29700CA41623949F0032CF95 /* Build configuration list for PBXProject "Crochet Central" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29700CD11623949F0032CF95 /* Debug */,
+				29700CD21623949F0032CF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29700CD31623949F0032CF95 /* Build configuration list for PBXNativeTarget "Crochet Central" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29700CD41623949F0032CF95 /* Debug */,
+				29700CD51623949F0032CF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29700CA11623949F0032CF95 /* Project object */;
+}
